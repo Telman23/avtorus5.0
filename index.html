@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторусь</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <!-- Логотип -->
+                <a href="#" class="logo header_logo">
+                    <img src="img/logo.svg" alt="Логотип автомобиля TANK" class="logo__img">
+                </a>
+                <!-- Остальное содержимое шапки -->
+                <div class="header__content">
+                    <!-- Верхняя часть шапки -->
+                    <div class="header__top">
+                        <div class="location">Ярославское шоссе, владение 2 В, строение 3 (НКАД, 95 км)</div>
+                        <ul class="services">
+                            <li class="services__item services__service">
+                                <a href="#" class="services__link">Записаться на сервис</a>
+                            </li>
+                            <li class="services__item services__test-drive">
+                                <a href="#" class="services__link">Тест-драйв</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Нижняя часть шапки -->
+                    <div class="header__bottom">
+                        <div class="header__title title-block">
+                            <h1 class="title">АВТОРУСЬ ТАНК</h1>
+                            <span class="subtitle"> Офицеальный дилер</span>
+                        </div>
+                        <div class="header__contacts contacts">
+                            <div class="phone-wrap">
+                                <a href="tel:+79999999999" class="phone">+7(999) 999-99-99</a>
+                                <div class="phone-wrap__info">Мы на связи</div>
+                            </div>
+                            <button class="btn btn--call-me">
+                                <span>Заказать звонок</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="welcome">
+            <div class="container welcome__container">
+                <div class="welcome__content">
+                    <div class="welcome__title-wrap">
+                        <div class="welcome__supertitle">Улучшим любые условия</div>
+                        <h2 class="welcome__title">TANK 500 </h2>
+                        <div class="welcome__subtitle">Осталось всего 5 автомобилей</div>
+                    </div>
+                    <button class="btn btn--size--high"> <span>Получить предложение</span></button>
+                </div>
+            </div>
+        </section>
+        <section class="promo">
+            <div class="container">
+                <div class="promo__content">
+                    <h2 class="promo__title">Срок действия спецпредложения:</h2>
+                    <div class="promo__timer">
+                        <ul class="promo__timer-list">
+                            <li class="promo__timer-item">
+                                <div class="promo__timer-value">3</div>
+                                <div class="promo__timer-label">дня</div>
+                            </li>
+                            <li class="promo__timer-item">
+                                <div class="promo__timer-value">06</div>
+                                <div class="promo__timer-label">часов</div>
+                            </li>
+                            <li class="promo__timer-item">
+                                <div class="promo__timer-value">14</div>
+                                <div class="promo__timer-label">минут</div>
+                            </li>
+                            <li class="promo__timer-item">
+                                <div class="promo__timer-value">55</div>
+                                <div class="promo__timer-label">секунд</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="promo__btn-wrap">
+                        <button class="btn btn--size--high"><span>Узнать цену с выгодами!</span></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <img src="./img/booking/booking-imgz.png" alt="" class="booking-promo__img">
+        <p class="booking-promo__desc">TANK 500</p>
+        <!--Секция Специальное предложение-->
+        <section class="special-offer">
+            <div class="container special-offer_container">
+                <!--Блок в которомнаходится контент с кнопками и банер с выбором цвета автомобиля-->
+                <div class="special-offer__main">
+                    <div class="special-offer__main-content">
+                        <div class="special-offer__bage">Только в АВТОРУСЬ!</div>
+                        <h2 class="special-offer__title">TANK 300</h2>
+                        <div class="special-offer__highlight">Выгода по Trade-In до 450 000 Р</div>
+                        <div class="special-offer__disclaimer">Ограниченное предложение!</div>
+                        <div class="special-offer__btns">
+                            <button class="btn btn--size--high"> <span>Узнать стоимость по акции</span></button>
+                            <button class="btn btn--size--medium btn--transparent"><span>Рассчитать
+                                    кредит</span></button>
+                        </div>
+                    </div>
+                    <div class="special-offer_banner">
+                        <div class="special-offer_ing-wrap">
+                            <img src="./img/special-offer/car-red.png" alt="TANK 300" class="special-offer_img">
+                            <div class="special-offer_banner-limit">Осталось 5 автомобилей по спец цене</div>
+                        </div>
+                        <!-- Выбор цвета -->
+                        <div class="switch-color-car">
+                            <label>
+                                <input type="radio" name="color" value="orange" class="color-car-check">
+                                <span class="color-car-circle" style="background-color: #DF4C30;"></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="color" value="orange" class="color-car-check">
+                                <span class="color-car-circle" style="background-color: #C6C9CE;"></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="color" value="orange" class="color-car-check">
+                                <span class="color-car-circle" style="background-color: #939697;"></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="color" value="orange" class="color-car-check">
+                                <span class="color-car-circle" style="background-color: #E6E7E8;"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    </div>
+
+    <ul class="special-offer__benefits">
+        <li class="special-offer__benefit">
+            <img class="special-offer__benefit-icon" src="./img/special-offer/clipboard-check.svg">
+        </li>
+    </ul>
+</body>
+<section>Trade </section>
+
+</html>
